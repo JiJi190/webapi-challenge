@@ -1,6 +1,7 @@
 const express = require('express')
 const server = express();
 const chores = require('./data/data')
+const users = require('./data/data')
 server.use(express.json())
 
 
@@ -53,6 +54,10 @@ server.put('/chores/:id', (req, res) => {
     }
 })
 
-const port = 8000;
+// People endpoint
+
+require('dotenv').config();
+
+const port = process.env.PORT || 8000;
 
 server.listen(port, () => console.log(`Server Running on port ${port}`))

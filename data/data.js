@@ -21,4 +21,4 @@ let chores = [
 ]
 
 
-module.exports = chores;
+module.exports = { chores, users };
