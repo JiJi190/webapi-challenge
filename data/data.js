@@ -1,25 +1,21 @@
-const userArray = [
+const users = [
     {
-        id: 1,
-        name: Naruto,
-        chores: [
-            {
-                id: 1,
-                desc: "Clean room",
-                completed: false
-            },
-            {
-                id: 2,
-                desc: "Get more ramen",
-                completed: true
-            }
-        ]
+        name: 'Naruto'
     },
     {
-        id: 2,
-        name: Shikamaru,
-        chores: [
-            
-        ]
+        name: 'Shikamaru'
+    },
+    {
+        name: 'Choji'
     }
 ]
+
+const chores = [
+    {
+        description: 'Buy more ramen',
+        notes: 'Spicy and beef first',
+        assignedTo: 1,
+        completed: false
+    }
+]
+module.export = chores
