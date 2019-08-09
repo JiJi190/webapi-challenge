@@ -1,24 +1,14 @@
-const users = [
-    {
-        name: 'Naruto'
-    },
-    {
-        name: 'Shikamaru'
-    },
-    {
-        name: 'Choji'
-    }
-]
+
 
 let chores = [
     {
-        id: 1,
+        id: 0,
         description: 'Buy more ramen',
         notes: 'Spicy and beef first',
-        assignedTo: 1,
+        assignedTo: 0,
         completed: false
     }
 ]
 
 
-module.exports = { chores, users };
+module.exports = chores;
